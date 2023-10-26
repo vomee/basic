@@ -1,0 +1,277 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+:root{
+   --main: purple;
+   --primary: yellow;
+}
+
+/*styling header*/
+#header{
+    display: flex;
+    font-size: 1.6rem;
+    justify-content: space-between;
+    padding: 2% 5%;
+    background-color: var(--main);
+}
+.nav i{
+    display: none;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+}
+.nav a:hover{
+    color: var(--primary);
+}
+.logo p{
+    color: var(--primary);
+    font-size: 2.5rem;
+}
+/*styling header done*/
+
+/*banner styling*/
+.banner{
+background-image: url(/img/saad-chaudhry-cYpqYxGeqts-unsplash.jpg);
+height: 80vh;    
+    background-position: center;
+    background-size: cover;
+    padding: 12% 5%;
+}
+.banner p{
+    font-size: 2rem;
+/*padding: 10% 5%;*/    
+}
+.banner button{
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    margin-top: 3%;
+    padding: 10px;
+    background-color: var(--main);
+    color: white;
+    border: none;
+    border-radius: 1rem;
+}
+/*styling banner done*/
+
+/*styling services*/
+#service{
+    margin: 5% 5%;
+}
+#service h1{
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+#service img{
+    height: 200px;
+    width: 250px;
+}
+.serve{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+.serve > div{
+    background-color: var(--main);
+    height: 50vh;
+    padding: 5px;
+    border-radius: 1rem;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: 0 0 30px var(--primary);
+}
+.serve > div:hover{
+transform: translateY(-15px);
+}
+.serve p{
+    font-size: 1.8rem;
+    color: var(--primary);
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 2%;
+}
+
+
+/*styling services done*/
+
+/*styling contact*/
+#contact{
+    margin: 5% 5%;
+}
+#contact h1{
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.emeka{
+    display: flex;
+    margin-top: 4%;
+}
+.emeka.left{
+    flex-basis: 50%;
+}
+.emeka.right{
+    flex-basis: 50%;
+}
+.left form{
+    width: 80%;
+    margin: 0 auto;
+    padding: 2%;
+}
+.left input{
+    font-size: 1.6rem;
+    width: 100%;
+    height: 8vh;
+}
+.left input :focus{
+    outline: none;
+    border: 2px solid var(--main);
+}
+.left form > div{
+    margin-bottom: 3%;
+}
+.left textarea{
+    width: 100%;
+    font-size: 1.6rem;
+}
+.left textarea :focus{
+    outline: none;
+    border: 2px solid var(--main);
+}
+.left button{
+    font-size: 1.6rem;
+    width: 100%;
+    border: 2px solid var(--main);
+}
+.left button{
+    font-size: 1.6rem;
+    width: 100%;
+    background-color: var(--main);
+    color: white;
+    padding: 8px;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.left button :hover{
+    background-color: var(--primary);
+    color: black;
+}
+.right iframe{
+    height: 66vh;
+}
+/*styling contact done*/
+
+/*styling footer*/
+#footer{
+    margin-top: 5%;
+    padding: 5% 5%;
+    background-color: var(--main);
+}
+.foot1{
+    display: flex;
+    justify-content: space-between;
+}
+.foot1 p{
+    font-size: 2.5rem;
+    color: var(--primary);
+}
+.foot1 h2{
+    font-size: 2.1rem;
+    text-transform: capitalize;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.foot1 ul{
+    list-style: none;
+    text-align: center;
+}
+.foot1 a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    color: white;
+}
+.foot1 i{
+    font-size: 2rem;
+    color: var(--primary);
+}
+.foot1.socials ul{
+    display: flex;
+    gap: 10px;
+    margin-top: 25%;
+}
+.foot2{
+    font-size: 1.6rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-transform: capitalize;
+    padding: 2% 0;
+}
+
+
+
+@media  (min-width: 300px) and (max-width: 700px){
+    .nav ul {
+        display: none;
+    }
+    .nav i{
+        display: block;
+        font-size: 2.5rem;
+        color: var(--primary);
+    }
+    .banner{
+        background-image: url(/img/saad-chaudhry-cYpqYxGeqts-unsplash.jpg);
+        height: 80vh;    
+            background-position: center;
+            background-size: cover;
+            padding-top: 50%;
+            padding-left: 5%;
+        }
+        .serve{
+            display: flex;
+           flex-direction: column;
+            margin-top: 4%;
+        }
+        .serve > div{
+            background-color: var(--main);
+            height: 50vh;
+            width: 70%;
+            margin: 5% auto;
+            padding: 5px;
+            border-radius: 1rem;
+            transition: 0.5s;
+            cursor: pointer;
+            box-shadow: 0 0 30px var(--primary);
+        }
+        .emeka{
+            display: flex;
+            flex-direction: column;
+            margin-top: 4%;
+        }
+        .right iframe{
+            height: 66vh;
+            width: 100%;
+        }
+
+
+}
+   
+

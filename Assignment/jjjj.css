@@ -1,0 +1,163 @@
+#top{
+    text-align: center;
+    font-style: normal;
+    font-size: 1.3rem;
+    background-color: whitesmoke;
+    padding: 5%;
+}
+.top1 button{
+    color: white;
+    text-transform: capitalize;
+    height: 4vh;
+    align-items: center;
+    background-color: blue;
+    border-radius: 13%; 
+   
+}
+    
+
+#middle .middle1{
+    background-color: grey;
+    width: 40%;
+    height: 50vh;
+    font-size: 1.6rem;
+    text-align: center;
+}
+#middle{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+    padding: 0% 3%;
+}
+.middle2{
+    font-size: 1.3rem;
+    justify-content: center;
+    text-transform: capitalize;
+}
+#mid{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding:0% 3%;
+}
+.mid2{
+    background-color: grey;
+    width: 40%;
+    height: 50vh;
+    font-size: 1.6rem;
+    text-align: center;
+}
+.mid1{
+    font-size: 1.3rem;
+    justify-content: center;
+    text-transform: capitalize;
+}
+.bottom{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+}
+.bottom2{
+    display: flex;
+    justify-content: space-between;
+    gap: 15%;
+    font-style:normal;
+    font-size: 1.4rem;
+}
+
+.footer{
+    background-color: black;
+       display: flex;
+       gap: 80%;
+       color: white;
+       justify-items: stretch;
+   }
+.ul{
+    display: flex;
+}
+
+/* contact page */
+
+.cont1{
+    text-align: center;
+    height: 20vh;
+}
+.cont2{
+    text-align: center;
+    height: 20vh;
+    font-size: 70%;
+    border: 4%;
+    border-color: black;
+    border-radius: 1rem;
+   
+}
+.chat{
+    display: flex;
+    justify-content: space-between;
+
+}
+.foot{
+     background-color: black;
+        display: flex;
+        gap: 80%;
+        color: white;
+        justify-items: stretch;
+    }
+    #contact{
+        height: 50vh;
+    }
+    .chat > i{
+        color: blue;
+    }
+    
+/* contact page done */
+
+/* pricing page */
+#pricing{
+    margin: 5% 5%;
+    text-transform: capitalize;
+}
+#pricing h1{
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+#pricing h3{
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+    gap: 20%;
+}
+.price > div{
+    border-radius: 1rem;
+    border-color: black;
+    height: 50vh;
+    width: fit-content;
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+.price > div > button{
+    background-color: rgb(0, 128, 255);
+    align-self: center;
+}
+.leg{
+    background-color: black;
+    display: flex;
+    gap: 80%;
+    color: white;
+    justify-items: stretch;
+}
+.price > div>ul{
+    list-style-type:circle;
+}
+.lele   {
+    display: flex;
+}
+
+/* pricing page done */
